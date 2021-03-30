@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+* {
+  background-color: rgb(214, 183, 183);
+  font-family: "Roboto", sans-serif;
+}
+#mot {
+  color: rgb(248, 103, 0);
+}
+.navbar li {
+  display: inline;
+  padding: 5px;
+
+  font-weight: bold;
+}
+.navbar li a {
+  text-decoration: none;
+  color: crimson;
+}
+.navbar li a:hover {
+  color: yellow;
+  font-size: larger;
+}
+h2 {
+  color: blue;
+  text-decoration: underline;
+}
+td > img {
+  border: 2px solid rgb(158, 145, 194);
+  border-radius: 5px;
+  box-shadow: -3px 3px 5px rgb(120, 98, 150), -7px 7px 5px rgb(223, 207, 243);
+}
+td {
+  text-align: center;
+}
+input,
+textarea {
+  background-color: rgb(228, 228, 192);
+}
+button {
+  padding: 1px;
+  width: 80px;
+  height: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px #2187e7b3;
+  background-color: rgb(197, 197, 5);
+  color: rgb(55, 0, 255);
+  font-weight: bold;
+}
+
+button:hover {
+  color: black;
+  border: 2px solid black;
+  box-shadow: 4px 4px 6px black;
+}
+#myAvatar {
+  border-radius: 50%;
+}
